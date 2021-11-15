@@ -30,7 +30,7 @@ To unfold macros in plans, use the following tool (to compile, get into `/unfold
 
 ### Scripts
 
-To learn Critical Section Macros (CSM), use the following script (you must be in the `\scripts` directory)
+To learn Critical Section Macros (CSM), use the following script (you must be in the `/scripts` directory)
 
 ```bash
 ./learn-csm.sh <domain_folder> <planner-script> <CSM-type>
@@ -46,7 +46,7 @@ where, `<CSM_type>` can be as follows:
 For example: `./learn-csm.sh ../benchmarks/bw ff-script acsm`
 
 
-To learn Compound CSMs, use the following script (you must be in the `\scripts` directory)
+To learn Compound CSMs, use the following script (you must be in the `/scripts` directory)
 
 ```bash
 ./learn-c-csm.sh <domain_folder> <planner-script> <CSM-type>
@@ -59,13 +59,13 @@ where, `<CSM_type>` can be as follows:
 * accsm - aggressive compound CSMs with argument limit
 * anccsm - aggressive compound CSMs without argument limit
 
-To learn MUM macros, use the following script (you must be in the `\scripts` directory)
+To learn MUM macros, use the following script (you must be in the `/scripts` directory)
 
 ```bash
 ./learn-mum.sh <domain_folder> <planner-script> 
 ```
 
-To learn BloMa macros, use the following script (you must be in the `\scripts` directory)
+To learn BloMa macros, use the following script (you must be in the `/scripts` directory)
 
 ```bash
 ./learn-bloma.sh <domain_folder> <planner-script> 
@@ -78,7 +78,7 @@ Note that the `ptt-old` binary is used by MUM and BloMa (because of some issues 
 
 ## Contact
 
-Lukas Chrpa, chrpaluk<at>fel.cvut.cz
+Lukas Chrpa, `chrpaluk<at>fel.cvut.cz`
 
 
 
