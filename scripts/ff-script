@@ -1,0 +1,1 @@
+~/Planners/Metric-FF/ff -o $1 -f $2 | grep [0-9]: | sed 's/step/    /g' | sed 's/: /: (/g' | sed 's/$/)/g' > $3

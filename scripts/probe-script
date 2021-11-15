@@ -1,0 +1,2 @@
+~/Planners/seq-agl-probe/probe -d $1 -i $2 -o $3
+mv -T $3.1 $3

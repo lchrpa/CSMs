@@ -1,0 +1,7 @@
+;ent_init
+;ent_goal
+;macros
+unstack_mcr_stack $0 $1 $2
+unstack $0 $1
+stack $0 $2
+

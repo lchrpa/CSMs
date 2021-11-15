@@ -1,0 +1,12 @@
+dir=`echo mercury-$1 | sed 's/\//-/g'`
+mkdir $dir
+cd $dir
+
+
+~/Planners/seq-agl-mercury/plan ../$1 ../$2 ../$3
+
+
+rm *
+
+cd ..
+rmdir $dir
