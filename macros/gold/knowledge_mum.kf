@@ -1,0 +1,22 @@
+;ent_init
+laser-at->stai_laser-at
+soft-rock-at->stai_soft-rock-at
+gold-at->stai_gold-at
+;ent_goal
+;macros
+move_mcr_fire-laser $0 $1 $2
+move $0 $1
+fire-laser $1 $2
+
+move_mcr_pickup-laser $0 $1
+move $0 $1
+pickup-laser $1
+
+move_mcr_detonate-bomb $0 $1 $2
+move $0 $1
+detonate-bomb $1 $2
+
+move_mcr_pick-gold $0 $1
+move $0 $1
+pick-gold $1
+

@@ -1,0 +1,8 @@
+;ent_init
+;ent_goal
+on->stag_on
+;macros
+pick-up_mcr_stack $0 $1
+pick-up $0
+stack $0 $1
+

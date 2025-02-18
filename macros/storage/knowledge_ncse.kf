@@ -1,0 +1,14 @@
+;ent_init
+on->stai_on
+;ent_goal
+in->stag_in
+;macros
+lift_mcr_drop $0 $1 $2 $3 $4 $5 $6
+lift $0 $1 $2 $3 $4
+drop $0 $1 $5 $3 $6
+
+go-out_mcr_lift_mcr_go-in $0 $1 $2 $3 $4 $5
+go-out $0 $1 $2
+lift $0 $3 $4 $2 $5
+go-in $0 $2 $1
+

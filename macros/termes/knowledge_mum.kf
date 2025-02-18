@@ -1,0 +1,13 @@
+;ent_init
+;ent_goal
+;macros
+remove-block_mcr_move_mcr_place-block $0 $1 $2 $3 $4 $5
+remove-block $0 $1 $2 $3
+move $0 $4 $3
+place-block $4 $5 $3 $2
+
+move-up_mcr_place-block_mcr_move-down $0 $1 $2 $3 $4 $5 $6
+move-up $0 $1 $2 $3
+place-block $2 $4 $3 $5
+move-down $2 $3 $6 $1
+

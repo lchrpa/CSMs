@@ -1,0 +1,40 @@
+;ent_init
+height->stai_height
+;ent_goal
+;macros
+move_mcr_place-block_mcr_move $0 $1 $2 $3 $4
+move $0 $1 $2
+place-block $1 $3 $2 $4
+move $1 $0 $2
+
+move_mcr_remove-block_mcr_move $0 $1 $2 $3 $4
+move $0 $1 $2
+remove-block $1 $3 $4 $2
+move $1 $0 $2
+
+move-down_mcr_remove-block_mcr_move $0 $1 $2 $3
+move-down $0 $1 $2 $3
+remove-block $2 $0 $1 $3
+move $2 $0 $3
+
+move-up_mcr_place-block_mcr_move-down $0 $1 $2 $3 $4 $5
+move-up $0 $1 $2 $3
+place-block $2 $4 $3 $5
+move-down $2 $3 $0 $1
+
+move_mcr_place-block_mcr_move-up $0 $1 $2 $3
+move $0 $1 $2
+place-block $1 $0 $2 $3
+move-up $1 $2 $0 $3
+
+move-up_mcr_remove-block_mcr_move-down $0 $1 $2 $3 $4 $5
+move-up $0 $1 $2 $3
+remove-block $2 $4 $5 $3
+move-down $2 $3 $0 $1
+
+move_mcr_place-block_mcr_move-up_mcr_move-down $0 $1 $2 $3
+move $0 $1 $2
+place-block $1 $0 $2 $3
+move-up $1 $2 $0 $3
+move-down $0 $3 $1 $2
+

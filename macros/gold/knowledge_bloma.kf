@@ -1,0 +1,8 @@
+;ent_init
+;ent_goal
+;macros
+move_mcr_move_mcr_move $0 $1 $2 $3
+move $0 $1
+move $1 $2
+move $2 $3
+

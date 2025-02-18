@@ -1,0 +1,7 @@
+;ent_init
+;ent_goal
+;macros
+move-curb-to-car_mcr_move-car-to-curb $0 $1 $2 $3 $4
+move-curb-to-car $0 $1 $2
+move-car-to-curb $3 $4 $1
+

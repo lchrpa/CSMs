@@ -1,0 +1,15 @@
+;ent_init
+at->stai_at
+at_soil_sample->stai_at_soil_sample
+at_rock_sample->stai_at_rock_sample
+;ent_goal
+;macros
+navigate_mcr_sample_soil_mcr_navigate $0 $1 $2 $3
+navigate $0 $1 $2
+sample_soil $0 $3 $2
+navigate $0 $2 $1
+
+sample_rock_mcr_drop $0 $1 $2
+sample_rock $0 $1 $2
+drop $0 $1
+

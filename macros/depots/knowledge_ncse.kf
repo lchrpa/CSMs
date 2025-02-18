@@ -1,0 +1,14 @@
+;ent_init
+at->stai_at
+on->stai_on
+;ent_goal
+on->stag_on
+;macros
+Lift_mcr_Load $0 $1 $2 $3 $4
+Lift $0 $1 $2 $3
+Load $0 $1 $4 $3
+
+Unload_mcr_Drop $0 $1 $2 $3 $4
+Unload $0 $1 $2 $3
+Drop $0 $1 $4 $3
+

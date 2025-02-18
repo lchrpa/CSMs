@@ -1,0 +1,10 @@
+;ent_init
+;ent_goal
+contains->stag_contains
+;macros
+shake_mcr_pour-shaker-to-shot_mcr_empty-shaker_mcr_clean-shaker $0 $1 $2 $3 $4 $5 $6 $7 $8 $9
+shake $0 $1 $2 $3 $4 $5
+pour-shaker-to-shot $0 $6 $4 $3 $7 $8
+empty-shaker $4 $3 $0 $8 $9
+clean-shaker $4 $5 $3
+

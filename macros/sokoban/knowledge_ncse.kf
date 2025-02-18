@@ -1,0 +1,14 @@
+;ent_init
+clear->stai_clear
+;ent_goal
+;macros
+push_mcr_move_mcr_move_mcr_push $0 $1 $2 $3 $4 $5 $6 $7 $8 $9
+push $0 $1 $2 $3 $4
+move $1 $5 $6
+move $5 $7 $3
+push $7 $2 $8 $9 $4
+
+push_mcr_push $0 $1 $2 $3 $4 $5
+push $0 $1 $2 $3 $4
+push $1 $2 $5 $3 $4
+

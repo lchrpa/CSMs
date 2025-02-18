@@ -78,7 +78,7 @@ Note that the `ptt-old` binary is used by MUM and BloMa (because of some issues 
 
 ## Contact
 
-Lukas Chrpa, `chrpaluk<at>fel.cvut.cz`
+Lukas Chrpa, `chrpaluk<at>cvut.cz`
 
 
 

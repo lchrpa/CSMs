@@ -1,0 +1,11 @@
+;ent_init
+at->stai_at
+free->stai_free
+;ent_goal
+at->stag_at
+;macros
+pick_mcr_move_mcr_drop $0 $1 $2 $3 $4
+pick $0 $1 $2 $3
+move $0 $2 $4
+drop $0 $1 $4 $3
+

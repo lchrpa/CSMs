@@ -1,0 +1,12 @@
+;ent_init
+;ent_goal
+on->stag_on
+;macros
+pickup_mcr_stack-pos-pos $0 $1 $2
+pickup $0 $1
+stack-pos-pos $0 $1 $2
+
+unstack_mcr_stack-pos-pos $0 $1 $2 $3
+unstack $0 $1 $2
+stack-pos-pos $0 $1 $3
+

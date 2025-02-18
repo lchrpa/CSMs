@@ -1,0 +1,14 @@
+;ent_init
+;ent_goal
+at->stag_at
+;macros
+pick-up_mcr_drive_mcr_drop $0 $1 $2 $3 $4 $5 $6
+pick-up $0 $1 $2 $3 $4
+drive $0 $1 $5
+drop $0 $5 $6 $3 $4
+
+drop_mcr_drive_mcr_pick-up $0 $1 $2 $3 $4 $5 $6
+drop $0 $1 $2 $3 $4
+drive $0 $1 $5
+pick-up $0 $5 $6 $3 $4
+

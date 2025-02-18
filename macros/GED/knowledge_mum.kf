@@ -1,0 +1,16 @@
+;ent_init
+cw->stai_cw
+;ent_goal
+cw->stag_cw
+;macros
+begin-cut_mcr_end-cut-1_mcr_end-cut-2 $0 $1 $2
+begin-cut $0 $1
+end-cut-1 $1 $2
+end-cut-2 $0 $2
+
+begin-cut_mcr_continue-cut_mcr_end-cut-1_mcr_end-cut-2 $0 $1 $2 $3
+begin-cut $0 $1
+continue-cut $1 $2
+end-cut-1 $2 $3
+end-cut-2 $0 $3
+

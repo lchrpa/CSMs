@@ -1,0 +1,8 @@
+;ent_init
+clear->stai_clear
+;ent_goal
+;macros
+move_mcr_move $0 $1 $2 $3 $4
+move $0 $1 $2
+move $1 $3 $4
+

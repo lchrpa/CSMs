@@ -1,0 +1,9 @@
+;ent_init
+clear->stai_clear
+;ent_goal
+painted->stag_painted
+;macros
+change-color_mcr_paint-up $0 $1 $2 $3 $4
+change-color $0 $1 $2
+paint-up $0 $3 $4 $2
+

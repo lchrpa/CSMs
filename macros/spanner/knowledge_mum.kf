@@ -1,0 +1,8 @@
+;ent_init
+at->stai_at
+;ent_goal
+;macros
+walk_mcr_pickup_spanner $0 $1 $2 $3
+walk $0 $1 $2
+pickup_spanner $1 $3 $2
+

@@ -1,0 +1,7 @@
+;ent_init
+;ent_goal
+;macros
+drive_mcr_drive $0 $1 $2 $3
+drive $0 $1 $2
+drive $0 $2 $3
+

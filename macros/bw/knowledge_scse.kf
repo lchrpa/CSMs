@@ -1,0 +1,17 @@
+;ent_init
+on->stai_on
+;ent_goal
+on->stag_on
+;macros
+unstack_mcr_put-down $0 $1
+unstack $0 $1
+put-down $0
+
+unstack_mcr_stack $0 $1 $2
+unstack $0 $1
+stack $0 $2
+
+pick-up_mcr_stack $0 $1
+pick-up $0
+stack $0 $1
+

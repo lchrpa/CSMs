@@ -1,0 +1,12 @@
+;ent_init
+clear->stai_clear
+;ent_goal
+;macros
+move_mcr_fire-laser_mcr_move_mcr_fire-laser_mcr_move_mcr_move $0 $1 $2 $3
+move $0 $1
+fire-laser $1 $2
+move $1 $2
+fire-laser $2 $3
+move $2 $1
+move $1 $0
+

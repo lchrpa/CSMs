@@ -1,0 +1,14 @@
+;ent_init
+cw->stai_cw
+;ent_goal
+cw->stag_cw
+;macros
+begin-cut_mcr_end-cut-1_mcr_end-cut-2_mcr_begin-transpose-splice_mcr_end-splice-1_mcr_end-splice-2_mcr_reset-1 $0 $1 $2 $3
+begin-cut $0 $1
+end-cut-1 $1 $2
+end-cut-2 $0 $2
+begin-transpose-splice $3 $0
+end-splice-1 $1 $3
+end-splice-2 $1 $0
+reset-1 $0
+

@@ -1,0 +1,8 @@
+;ent_init
+;ent_goal
+;macros
+move_mcr_fire-laser_mcr_move $0 $1 $2
+move $0 $1
+fire-laser $1 $2
+move $1 $0
+

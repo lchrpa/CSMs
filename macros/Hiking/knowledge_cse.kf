@@ -1,0 +1,16 @@
+;ent_init
+;ent_goal
+;macros
+drive_tent_mcr_put_up_mcr_drive_passenger_mcr_walk_together_mcr_put_down_mcr_drive_tent_passenger $0 $1 $2 $3 $4 $5 $6 $7
+drive_tent $0 $1 $2 $3 $4
+put_up $0 $2 $4
+drive_passenger $0 $2 $1 $3 $5
+walk_together $4 $2 $5 $1 $0 $6
+put_down $0 $2 $4
+drive_tent_passenger $0 $2 $1 $7 $4 $5
+
+put_down_mcr_drive_tent_mcr_put_up $0 $1 $2 $3 $4
+put_down $0 $1 $2
+drive_tent $0 $1 $3 $4 $2
+put_up $0 $3 $2
+

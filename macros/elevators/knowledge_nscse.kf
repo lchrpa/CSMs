@@ -1,0 +1,16 @@
+;ent_init
+passenger-at->stai_passenger-at
+passengers->stai_passengers
+;ent_goal
+passenger-at->stag_passenger-at
+;macros
+move-down-slow_mcr_board_mcr_move-up-slow $0 $1 $2 $3 $4 $5
+move-down-slow $0 $1 $2
+board $3 $0 $2 $4 $5
+move-up-slow $0 $2 $1
+
+board_mcr_move-up-slow_mcr_leave $0 $1 $2 $3 $4 $5
+board $0 $1 $2 $3 $4
+move-up-slow $1 $2 $5
+leave $0 $1 $5 $4 $3
+

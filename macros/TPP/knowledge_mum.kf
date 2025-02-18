@@ -1,0 +1,11 @@
+;ent_init
+on-sale->stai_on-sale
+ready-to-load->stai_ready-to-load
+loaded->stai_loaded
+;ent_goal
+;macros
+drive_mcr_buy_mcr_load $0 $1 $2 $3 $4 $5 $6 $7 $8
+drive $0 $1 $2
+buy $0 $3 $2 $4 $5 $6 $7
+load $3 $8 $2 $4 $5 $4 $5
+

@@ -1,0 +1,8 @@
+;ent_init
+ontalon->stai_ontalon
+;ent_goal
+;macros
+turn-deck_mcr_tal-to-home $0 $1 $2 $3 $4 $5 $6
+turn-deck $0 $1
+tal-to-home $1 $2 $0 $3 $4 $5 $6
+

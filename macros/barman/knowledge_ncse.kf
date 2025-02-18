@@ -1,0 +1,23 @@
+;ent_init
+shaker-level->stai_shaker-level
+;ent_goal
+contains->stag_contains
+;macros
+grasp_mcr_fill-shot_mcr_pour-shot-to-clean-shaker_mcr_clean-shot_mcr_fill-shot_mcr_pour-shot-to-used-shaker_mcr_clean-shot_mcr_leave $0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10
+grasp $0 $1
+fill-shot $1 $2 $0 $3 $4
+pour-shot-to-clean-shaker $1 $2 $5 $0 $6 $7
+clean-shot $1 $2 $0 $3
+fill-shot $1 $8 $0 $3 $9
+pour-shot-to-used-shaker $1 $8 $5 $0 $7 $10
+clean-shot $1 $8 $0 $3
+leave $0 $1
+
+grasp_mcr_shake_mcr_pour-shaker-to-shot_mcr_empty-shaker_mcr_clean-shaker_mcr_leave $0 $1 $2 $3 $4 $5 $6 $7 $8 $9
+grasp $0 $1
+shake $2 $3 $4 $1 $0 $5
+pour-shaker-to-shot $2 $6 $0 $1 $7 $8
+empty-shaker $0 $1 $2 $8 $9
+clean-shaker $0 $5 $1
+leave $0 $1
+
