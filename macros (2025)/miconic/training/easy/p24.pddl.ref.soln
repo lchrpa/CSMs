@@ -1,0 +1,6 @@
+(board f2 p2)
+(up_mcr_board_mcr_down f2 f5 p1)
+(depart f2 p1)
+(up f2 f3)
+(depart f3 p2)
+; cost = 5 (unit cost)

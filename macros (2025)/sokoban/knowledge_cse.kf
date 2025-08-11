@@ -1,0 +1,7 @@
+;ent_init
+;ent_goal
+;macros
+push_mcr_push $0 $1 $2 $3 $4 $5
+push $0 $1 $2 $3 $4
+push $1 $2 $5 $3 $4
+

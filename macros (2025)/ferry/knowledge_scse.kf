@@ -1,0 +1,13 @@
+;ent_init
+at->stai_at
+;ent_goal
+at->stag_at
+;macros
+sail_mcr_board_mcr_sail_mcr_sail_mcr_debark_mcr_sail $0 $1 $2 $3
+sail $0 $1
+board $2 $1
+sail $1 $0
+sail $0 $3
+debark $2 $3
+sail $3 $0
+

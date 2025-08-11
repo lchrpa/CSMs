@@ -1,0 +1,1 @@
+~/Planners/ipc2018-LAPKT-DUAL-BFWS/BFWS/ff-version/bfws --domain $1 --problem $2 --output $3 --Poly-Seq-BFWS 1

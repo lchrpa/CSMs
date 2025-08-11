@@ -1,0 +1,9 @@
+;ent_init
+origin->stai_origin
+;ent_goal
+;macros
+up_mcr_board_mcr_down $0 $1 $2
+up $0 $1
+board $1 $2
+down $1 $0
+

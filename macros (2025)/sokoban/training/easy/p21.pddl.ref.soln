@@ -1,0 +1,8 @@
+(move loc_4_6 loc_3_6 up)
+(move loc_3_6 loc_2_6 up)
+(move loc_2_6 loc_2_5 left)
+(push loc_2_5 loc_3_5 loc_4_5 down box1)
+(move loc_3_5 loc_3_6 right)
+(move loc_3_6 loc_4_6 down)
+(push_mcr_push loc_4_6 loc_4_5 loc_4_4 left box1 loc_4_3)
+; cost = 7 (unit cost)

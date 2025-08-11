@@ -1,0 +1,6 @@
+(sail_mcr_board_mcr_sail_mcr_sail_mcr_debark_mcr_sail loc2 loc1 car1 loc3)
+(sail_mcr_board_mcr_sail_mcr_sail_mcr_debark_mcr_sail loc2 loc6 car2 loc3)
+(sail_mcr_board_mcr_sail_mcr_sail_mcr_debark_mcr_sail loc2 loc4 car3 loc7)
+(sail_mcr_board_mcr_sail loc2 loc1 car4)
+(debark car4 loc2)
+; cost = 5 (unit cost)
