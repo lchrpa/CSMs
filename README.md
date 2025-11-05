@@ -1,5 +1,7 @@
 # PTT - macro and entanglement generation in planning
 
+Source code, benchmarks, and results for the following publications.
+
 * L. Chrpa, M. Vallati: Planning with Critical Section Macros: Theory and Practice, Journal of Artificial Intelligence Research
 * L. Chrpa, M. Vallati: Critical Section Macros -- New Results (Extended Abstract), SoCS, 2025
 
